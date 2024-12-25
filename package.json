@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "tailwindcss -i ./src/App.css -o ./css/main.css",
+    "bulid" : "react-scripts build",
+    "build:css": "tailwindcss -i ./src/App.css -o ./css/main.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
